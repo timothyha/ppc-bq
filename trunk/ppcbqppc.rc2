@@ -1,0 +1,47 @@
+//
+// ppcbqPPC.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+HI_RES_AWARE CEUX {1}	// turn off the emulation layer
+			// Remove this resource to enable pixel-
+			// doubling on platforms that support it
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHMENUBAR
+//
+
+IDR_MENU SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU, 
+    4,
+
+	I_IMAGENONE, IDM_FIND, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE,
+    IDS_FIND, 0, 0,
+
+    I_IMAGENONE, IDM_COPY, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE,
+    IDS_COPY, 0, 0,
+
+    I_IMAGENONE, ID_ACTIONS_STRONGS, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE,
+    IDS_STRONGS, 0, 0,
+
+    //I_IMAGENONE, IDM_HELP_ABOUT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE,
+    //IDS_HELP_ABOUT, 0, 0,
+
+    //I_IMAGENONE, IDM_OK, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE,
+    //IDS_OK, 0, 0,
+
+	I_IMAGENONE, ID_ACTIONS, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE | TBSTYLE_DROPDOWN,
+	IDS_ACTIONS, 0, 3,
+
+END
